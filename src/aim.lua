@@ -106,7 +106,7 @@ getgenv().ExunysDeveloperAimbot = {
 
 	FOVSettings = {
 		Enabled = true,
-		Visible = false,
+		Visible = true,
 
 		Radius = 90,
 		NumSides = 60,
@@ -122,7 +122,9 @@ getgenv().ExunysDeveloperAimbot = {
 		LockedColor = Color3fromRGB(255, 150, 150)
 	},
 
-	Blacklisted = {},
+	Blacklisted = {
+		"PINEWOOD_ALEX'
+	},
 	FOVCircleOutline = Drawingnew("Circle"),
 	FOVCircle = Drawingnew("Circle")
 }
