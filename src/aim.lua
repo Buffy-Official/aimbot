@@ -123,7 +123,7 @@ getgenv().ExunysDeveloperAimbot = {
 	},
 
 	Blacklisted = {
-		"PINEWOOD_ALEX'
+		"PINEWOOD_ALEX"
 	},
 	FOVCircleOutline = Drawingnew("Circle"),
 	FOVCircle = Drawingnew("Circle")
