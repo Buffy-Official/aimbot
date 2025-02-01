@@ -87,7 +87,7 @@ getgenv().ExunysDeveloperAimbot = {
 	Settings = {
 		Enabled = true,
 
-		TeamCheck = false,
+		TeamCheck = true,
 		AliveCheck = true,
 		WallCheck = false,
 
@@ -122,9 +122,7 @@ getgenv().ExunysDeveloperAimbot = {
 		LockedColor = Color3fromRGB(255, 150, 150)
 	},
 
-	Blacklisted = {
-		"PINEWOOD_ALEX"
-	},
+	Blacklisted = {},
 	FOVCircleOutline = Drawingnew("Circle"),
 	FOVCircle = Drawingnew("Circle")
 }
